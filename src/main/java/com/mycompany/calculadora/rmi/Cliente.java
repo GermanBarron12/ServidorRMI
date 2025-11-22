@@ -5,9 +5,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
 
-/**
- * Cliente RMI - Ejecutar en la máquina cliente
- */
 public class Cliente {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

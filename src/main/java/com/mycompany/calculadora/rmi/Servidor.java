@@ -11,7 +11,7 @@ import java.net.InetAddress;
 public class Servidor {
     public static void main(String[] args) {
         try {
-            // CRÍTICO: Configurar hostname ANTES de crear objetos remotos
+            
             System.setProperty("java.rmi.server.hostname", "192.168.100.144");
             
             System.out.println("Configurando servidor RMI...");

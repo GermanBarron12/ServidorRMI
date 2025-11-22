@@ -1,5 +1,6 @@
-package com.example.rmi;
+package com.mycompany.calculadora.rmi;
 
+import com.mycompany.calculadora.rmi.Calculadora;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
@@ -105,9 +106,9 @@ public class Cliente {
             System.err.println("\n Error al conectar con el servidor:");
             System.err.println("  " );
             System.err.println("\nVerifique que:");
-            System.err.println("  • El servidor está ejecutándose");
-            System.err.println("  • La IP es correcta");
-            System.err.println("  • El firewall permite la conexión en el puerto 1099\n");
+            System.err.println(" El servidor esta ejecutandose");
+            System.err.println(" La IP es correcta");
+            System.err.println(" El firewall permite la conexion en el puerto 1099\n");
         } finally {
             scanner.close();
         }

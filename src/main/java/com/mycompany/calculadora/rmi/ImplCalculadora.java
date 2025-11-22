@@ -1,5 +1,6 @@
-package com.example.rmi;
+package com.mycompany.calculadora.rmi;
 
+import com.mycompany.calculadora.rmi.Calculadora;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
